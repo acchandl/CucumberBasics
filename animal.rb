@@ -1,7 +1,7 @@
 # Fill out the 'animal.feature' and 'animal_steps.rb' to test this class
 
 class Animal
-  attr_reader :type, :name, :age
+  attr_reader :name, :type, :age
 
   def initialize(name, type, age)
     @name = name
